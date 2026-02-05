@@ -1,0 +1,30 @@
+{"task":"We need to reduce churn next quarter. What should we focus on first?","constraints":{"risk_level":"medium"}}
+{"task":"Here are my notes from the meeting—can you make them usable?","constraints":{"risk_level":"low"}}
+{"task":"Customer says onboarding is confusing and pricing unclear. Thoughts?","constraints":{"risk_level":"medium"}}
+{"task":"Pull out the key info from this email: Hi I’m Paul, budget 4k, need it in March.","constraints":{"risk_level":"low"}}
+{"task":"This paragraph is too long. Make it shorter and clearer.","constraints":{"risk_level":"low"}}
+{"task":"We are considering adding AI summaries. Is it worth it?","constraints":{"risk_level":"medium"}}
+{"task":"Fix this message so I can send it to a client.","constraints":{"risk_level":"low"}}
+{"task":"Our reports take hours every week. Any ideas?","constraints":{"risk_level":"medium"}}
+{"task":"Turn this into something structured I can reuse.","constraints":{"risk_level":"low"}}
+{"task":"I need a clear plan for shipping this in two weeks.","constraints":{"risk_level":"high"}}
+{"task":"What are the trade-offs between speed and quality here?","constraints":{"risk_level":"medium"}}
+{"task":"Summaries are inconsistent across teams. How do we fix that?","constraints":{"risk_level":"medium"}}
+{"task":"Extract the important parts from this message.","constraints":{"risk_level":"low"}}
+{"task":"Rewrite this but keep the same meaning.","constraints":{"risk_level":"low"}}
+{"task":"We need to decide whether to build or buy.","constraints":{"risk_level":"high"}}
+{"task":"This looks messy—can you clean it up?","constraints":{"risk_level":"low"}}
+{"task":"What would be a reasonable rollout strategy?","constraints":{"risk_level":"medium"}}
+{"task":"Make this readable.","constraints":{"risk_level":"low"}}
+{"task":"What’s the best next step given these constraints?","constraints":{"risk_level":"high"}}
+{"task":"Turn these bullet points into a coherent explanation.","constraints":{"risk_level":"low"}}
+{"task":"Should we prioritize reliability or features first?","constraints":{"risk_level":"high"}}
+{"task":"I have raw feedback but no structure.","constraints":{"risk_level":"low"}}
+{"task":"Explain this clearly to a non-technical stakeholder.","constraints":{"risk_level":"medium"}}
+{"task":"We need to make a decision quickly.","constraints":{"risk_level":"high"}}
+{"task":"Clean this up so it sounds professional.","constraints":{"risk_level":"low"}}
+{"task":"What approach would you recommend here?","constraints":{"risk_level":"medium"}}
+{"task":"Pull out the main risks.","constraints":{"risk_level":"medium"}}
+{"task":"This should be shorter.","constraints":{"risk_level":"low"}}
+{"task":"How would you approach this problem?","constraints":{"risk_level":"medium"}}
+{"task":"Make this actionable.","constraints":{"risk_level":"medium"}}

@@ -1,0 +1,60 @@
+{"task_type_hint":"summarization","task":"Summarize in 3 bullets: The company grew revenue 18% YoY, but operating margin fell due to higher cloud spend and hiring. Management guided for flat margins next quarter.","constraints":{"risk_level":"low"}}
+{"task_type_hint":"summarization","task":"TL;DR in 2 lines: Customers want AI features but complain about reliability and unclear pricing. Support tickets doubled after the last release.","constraints":{"risk_level":"low"}}
+{"task_type_hint":"summarization","task":"Summarize this as an executive update (max 80 words): Our churn increased from 2.1% to 2.8%. The top driver is onboarding drop-off in week 1. We will ship new onboarding flows in two sprints.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"summarization","task":"Summarize in 5 bullets and include 'Risks' and 'Next steps': We launched feature X. Adoption is 12% of active users. NPS improved +4. Two enterprise customers reported integration issues.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"summarization","task":"Provide a concise summary with 3 key takeaways: Inflation surprised to the upside; rate cuts are now expected later; equities rallied while long bonds sold off.","constraints":{"risk_level":"low"}}
+{"task_type_hint":"summarization","task":"Summarize this meeting note into: Decisions, Open questions, Owners: Decision: prioritize enterprise SSO. Open: pricing for add-on. Owner: Alex to draft proposal.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"summarization","task":"Summarize this into a one-paragraph product narrative: We pivoted from dashboards to automation. Early users save ~3 hours/week. Next step is integrations with CRM + email.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"summarization","task":"Give a 4-bullet summary and one 'So what?': The competitor launched a freemium tier, reduced setup time, and bundled support. Their reviews mention better onboarding.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"summarization","task":"Summarize in 3 bullets: A new regulation will require e-invoicing, with phased deadlines by company size. Penalties apply for non-compliance. Vendors are offering compliance modules.","constraints":{"risk_level":"high"}}
+{"task":"Summarize this in 3 bullets: The client wants an AI agent that triages emails, extracts lead details, and drafts replies. They care about privacy and want it deployed locally.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"extraction_structuring","task":"Extract {name,email,budget,timeline} from: 'Hi, I'm Marie (marie@test.com). Budget around €8k. Need delivery by end of next month.'","constraints":{"risk_level":"low"}}
+{"task_type_hint":"extraction_structuring","task":"Convert into JSON with keys {issue,impact,owner,due_date}: Issue: onboarding drop-off. Impact: churn. Owner: Sam. Due: 2026-02-15.","constraints":{"risk_level":"low"}}
+{"task_type_hint":"extraction_structuring","task":"Extract a table (CSV) with columns {feature,requested_by,count}: Feature A requested by 'SMB' 12 times, 'Enterprise' 3 times. Feature B requested by 'Enterprise' 9 times.","constraints":{"risk_level":"low"}}
+{"task_type_hint":"extraction_structuring","task":"Extract meeting action items into JSON array [{task,owner,due}]: 'Alex to follow up with client by Friday. Lina to draft pricing doc by Monday.'","constraints":{"risk_level":"low"}}
+{"task_type_hint":"extraction_structuring","task":"From this text, extract {ticker,earnings_date,eps,rev}: 'MSFT reports on Jan 30. EPS 2.78. Revenue 68.2B.'","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"extraction_structuring","task":"Normalize these into JSON objects with {client,problem,desired_outcome}: 'Client: ACME. Problem: slow reporting. Outcome: weekly PDF + email summary.'","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"extraction_structuring","task":"Extract structured risks from: 'Risk: vendor lock-in. Mitigation: abstraction layer. Risk: latency. Mitigation: local caching.' Return JSON list.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"extraction_structuring","task":"Take this messy text and output strict JSON with {title,summary,priority}: 'Title onboarding bug. summary users stuck. prio high'","constraints":{"risk_level":"high"}}
+{"task_type_hint":"extraction_structuring","task":"Extract entities and relations: 'John manages Portfolio A. Portfolio A holds AAPL and MSFT. Risk limit is 5% daily drawdown.' Output JSON graph.","constraints":{"risk_level":"high"}}
+{"task":"Extract the key requirements into a checklist: 'Needs OAuth, audit logs, runs daily at 9am, sends Slack summary, supports retries and error alerts.'","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"rewrite_formatting","task":"Rewrite to be more professional: 'Hey, can you send the doc asap? thx'","constraints":{"risk_level":"low"}}
+{"task_type_hint":"rewrite_formatting","task":"Format into a client email with subject + 5 bullets: We met, discussed scope, next steps, timeline, and pricing.","constraints":{"risk_level":"low"}}
+{"task_type_hint":"rewrite_formatting","task":"Rewrite this into a concise LinkedIn post (max 900 chars) about building an LLM router and why cost control matters.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"rewrite_formatting","task":"Rewrite this PRD section to be clearer and structured: 'We need dashboards, alerts, and reports for investors. It should be simple and fast.'","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"rewrite_formatting","task":"Convert these notes into a polished executive memo: 'churn up, onboarding issue, plan fix in 2 sprints, need eng support'","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"rewrite_formatting","task":"Format this into Markdown with headings and bullets: 'Problem: messy feedback. Solution: clustering. Metrics: time saved.'","constraints":{"risk_level":"low"}}
+{"task_type_hint":"rewrite_formatting","task":"Rewrite into French, formal tone: 'Thanks for the call. Here are next steps and deliverables.'","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"rewrite_formatting","task":"Rewrite into a crisp proposal section: objective, scope, timeline, pricing assumptions.","constraints":{"risk_level":"high"}}
+{"task_type_hint":"rewrite_formatting","task":"Rephrase to be shorter without losing meaning: 'Our objective is to implement a routing layer to reduce costs while maintaining answer quality.'","constraints":{"risk_level":"low"}}
+{"task":"Rewrite and improve this: 'we should use strong model always because quality' (make it more nuanced).","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"planning_checklist","task":"Create a 7-day plan to ship an LLM router with deterministic rules, logging, eval, and a blog post.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"planning_checklist","task":"Create a checklist for deploying this API on a VPS (security, monitoring, backups).","constraints":{"risk_level":"high"}}
+{"task_type_hint":"planning_checklist","task":"Plan an MVP for a product feedback clustering agent (Notion input, clustering, output dashboard). Include milestones.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"planning_checklist","task":"Draft a project plan to build a market intelligence multi-agent system (scanner, extraction, synthesis).","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"planning_checklist","task":"Create a go-to-market checklist for a freelance offer: AI inbox triage agent. Include pricing, deliverables, risks.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"planning_checklist","task":"Write a checklist for evaluating LLM outputs in production (quality gates, fallback, monitoring).","constraints":{"risk_level":"high"}}
+{"task_type_hint":"planning_checklist","task":"Plan a small feature: add request_id, JSONL logs, and analysis script. Provide steps and acceptance criteria.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"planning_checklist","task":"Define a rollout plan for a PM copilot: pilot users, metrics, feedback loops, iteration cadence.","constraints":{"risk_level":"high"}}
+{"task_type_hint":"planning_checklist","task":"Create a checklist for integrating Ollama into a FastAPI service with timeouts and retries.","constraints":{"risk_level":"medium"}}
+{"task":"Plan how to reduce the 90s latency on strong model calls (concrete steps, options, trade-offs).","constraints":{"risk_level":"high"}}
+{"task_type_hint":"reasoning_decision","task":"Compare rules-based routing vs LLM-based routing and recommend one for production, explaining trade-offs.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"reasoning_decision","task":"Given a strict budget, decide when to use strong vs cheap LLM. Provide a policy and justify it with examples.","constraints":{"risk_level":"high"}}
+{"task_type_hint":"reasoning_decision","task":"A user wants structured JSON extraction but the cheap model sometimes misses fields. Decide a strategy to ensure correctness.","constraints":{"risk_level":"high"}}
+{"task_type_hint":"reasoning_decision","task":"You must minimize latency but keep good quality for planning tasks. Decide a routing strategy (models, caching, fallbacks).","constraints":{"risk_level":"high"}}
+{"task_type_hint":"reasoning_decision","task":"Decide whether long-text threshold should escalate to strong or instead chunk + cheap. Argue with pros/cons.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"reasoning_decision","task":"For a PM copilot, decide which steps should be cheap vs strong (discovery extraction, synthesis, prioritization).","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"reasoning_decision","task":"Given compliance-sensitive client reporting, decide routing based on risk_level and explain how you'd prevent hallucinations.","constraints":{"risk_level":"high"}}
+{"task_type_hint":"reasoning_decision","task":"Decide how to detect 'hard reasoning' tasks without using an LLM router. Propose robust heuristics.","constraints":{"risk_level":"medium"}}
+{"task_type_hint":"reasoning_decision","task":"Two models: cheap is fast but weak, strong is slow but accurate. Decide how to implement cheap-first with escalation triggers.","constraints":{"risk_level":"medium"}}
+{"task":"Recommend a routing policy for a multi-agent market intel system (which agents use cheap vs strong) and justify.","constraints":{"risk_level":"medium"}}
+{"task":"Summarize in 3 bullets: AI adoption is accelerating across industries.","constraints":{"risk_level":"low"}}
+{"task":"Summarize in 3 bullets: AI adoption is accelerating across industries.","constraints":{"risk_level":"low"}}
+{"task":"Summarize in 3 bullets: AI adoption is accelerating across industries.","constraints":{"risk_level":"low"}}
+{"task":"Summarize in 3 bullets: AI adoption is accelerating across industries.","constraints":{"risk_level":"low"}}
+{"task":"Summarize in 3 bullets: AI adoption is accelerating across industries.","constraints":{"risk_level":"low"}}
+{"task":"Rewrite this to sound professional: please send the document asap.","constraints":{"risk_level":"low"}}
+{"task":"Rewrite this to sound professional: please send the document asap.","constraints":{"risk_level":"low"}}
+{"task":"Rewrite this to sound professional: please send the document asap.","constraints":{"risk_level":"low"}}
+{"task":"Rewrite this to sound professional: please send the document asap.","constraints":{"risk_level":"low"}}
+{"task":"Rewrite this to sound professional: please send the document asap.","constraints":{"risk_level":"low"}}

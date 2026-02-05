@@ -1,0 +1,80 @@
+version: 1
+default_model_tier: cheap
+
+models:
+  cheap:
+    name: "gemma3:1b"
+  strong:
+    name: "llama3.1:latest"
+
+task_types:
+  summarization:
+    default_tier: cheap
+    keywords:
+      - "summarize"
+      - "tl;dr"
+      - "summary"
+    escalate_if_keywords:
+      - "compare"
+      - "trade-off"
+      - "recommend"
+      - "decide"
+      - "why"
+
+  extraction_structuring:
+    default_tier: cheap
+    keywords:
+      - "extract"
+      - "pull out"
+      - "fields"
+      - "json"
+      - "table"
+      - "structure"
+    escalate_if_keywords:
+      - "infer"
+      - "interpret"
+      - "root cause"
+
+  rewrite_formatting:
+    default_tier: cheap
+    keywords:
+      - "rewrite"
+      - "rephrase"
+      - "fix grammar"
+      - "format"
+      - "polish"
+    escalate_if_keywords:
+      - "strategy"
+      - "positioning"
+
+  planning_checklist:
+    default_tier: strong
+    keywords:
+      - "plan"
+      - "roadmap"
+      - "checklist"
+      - "steps"
+      - "milestones"
+    escalate_if_keywords: []
+
+  reasoning_decision:
+    default_tier: strong
+    keywords:
+      - "decide"
+      - "recommend"
+      - "compare"
+      - "trade-off"
+      - "pros and cons"
+      - "why"
+    escalate_if_keywords: []
+
+heuristics:
+  # Very simple v1 heuristics (day 1). You’ll refine later.
+  long_text_chars_threshold: 2500
+  long_text_escalate_to: strong
+
+reason_codes:
+  - RULE_TASK_TYPE_DEFAULT
+  - RULE_KEYWORD_MATCH
+  - HEURISTIC_LONG_TEXT
+  - FALLBACK_DEFAULT

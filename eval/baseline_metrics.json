@@ -1,0 +1,5 @@
+{
+  "max_avg_latency_ms_strong": 120000,
+  "max_avg_latency_ms_cheap": 15000,
+  "max_escalation_rate": 0.35
+}
