@@ -148,7 +148,7 @@ Routing decisions remain stable even after execution optimizations.
 
 Architectural and strategic write-up:
 
-👉 [Read on Medium](https://medium.com/)
+👉 [Read on Medium](https://medium.com/@jerome.petit_68370/designing-a-quality-aware-llm-router-from-experimentation-to-economic-governance-1446116cfacc)
 
 ---
 
